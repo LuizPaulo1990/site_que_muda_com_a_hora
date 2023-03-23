@@ -1,6 +1,7 @@
 function carregar(){
-    var msg = document.querySelector('div#msg');
-    var img = document.querySelector('img#imagem');
+    // IDs são unicos. Voce pode usar o getElementById para referenciar a eles ao invés do querySelector
+    var msg = document.getElementById('#msg');
+    var img = document.getElementById('#imagem');
     var data = new Date();
     var hora = data.getHours();
     var minuto = data.getMinutes();
